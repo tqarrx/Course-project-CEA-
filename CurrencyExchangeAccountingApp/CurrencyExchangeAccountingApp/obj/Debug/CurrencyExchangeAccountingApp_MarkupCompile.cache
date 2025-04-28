@@ -1,0 +1,20 @@
+﻿CurrencyExchangeAccountingApp
+
+
+winexe
+C#
+.cs
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\
+CurrencyExchangeAccountingApp
+none
+false
+DEBUG;TRACE
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\App.xaml
+161581593206
+2-245060169
+34296119852
+27-1721278234
+Pages\Operator\AddOperationsPageOperator.xaml;Pages\Operator\EditOperationsPageOperator.xaml;Pages\Operator\GeneralWindowOperator.xaml;Pages\Senior\AddOperationsPageSenior.xaml;Pages\Senior\GeneralWindowSenior.xaml;Pages\Shared\CodeConfirmationWindow.xaml;Pages\Operator\CurrenciesPageOperator.xaml;Pages\Senior\CurrenciesPageSenior.xaml;Pages\Senior\EditCurrencyBalancePageSenior.xaml;Pages\Senior\EditOperationsPageSenior.xaml;Pages\Operator\ExchangeRatesPageOperator.xaml;Pages\Senior\ExchangeRatesPageSenior.xaml;MainWindow.xaml;Pages\Operator\OperationsPageOperator.xaml;Pages\Senior\OperationsPageSenior.xaml;Pages\Senior\ReportsPageSenior.xaml;
+
+False
+

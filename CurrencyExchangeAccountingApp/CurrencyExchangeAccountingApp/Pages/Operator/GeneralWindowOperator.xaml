@@ -1,0 +1,90 @@
+﻿<Window x:Class="CurrencyExchangeAccountingApp.Pages.Operator.GeneralWindowOperator"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CurrencyExchangeAccountingApp.Pages.Operator"
+        mc:Ignorable="d"
+        Title="Учет обмена валют - кассир-оператор"
+        WindowState="Maximized"
+        WindowStyle="SingleBorderWindow"
+        ResizeMode="CanResize"
+        Loaded="Window_Loaded">
+
+    <!-- Ресурсы окна, определяющие стили элементов -->
+    <Window.Resources>
+        <!-- Стиль для кнопок в меню -->
+        <Style x:Key="MenuButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="Padding" Value="10,12"/>
+            <Setter Property="Margin" Value="0"/>
+            <Setter Property="BorderThickness" Value="0,0,0,1"/>
+            <Setter Property="BorderBrush" Value="Black"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" 
+                                BorderBrush="{TemplateBinding BorderBrush}" 
+                                BorderThickness="{TemplateBinding BorderThickness}">
+                            <ContentPresenter Content="{TemplateBinding Content}" 
+                                              HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                              VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#f9e57c"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+
+    <!-- Основная разметка окна -->
+    <Grid>
+        <!-- Определение колонок сетки -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Вертикальная разделительная линия -->
+        <Border Grid.Column="1" Width="1" Background="Black"/>
+
+        <!-- Левая панель меню -->
+        <StackPanel Grid.Column="0" Background="#fbed9e">
+            <!-- Кнопка "Курсы валют" -->
+            <Button x:Name="ExchangeRatesBtn" 
+                    Content="Курсы валют" 
+                    Style="{StaticResource MenuButtonStyle}" 
+                    Click="ExchangeRatesBtn_Click"/>
+            <!-- Кнопка "Валюты" -->
+            <Button x:Name="CurrenciesBtn" 
+                    Content="Валюты" 
+                    Style="{StaticResource MenuButtonStyle}"
+                    Click="CurrenciesBtn_Click"/>
+            <!-- Кнопка "Операции" -->
+            <Button x:Name="OperationsBtn" 
+                    Content="Операции" 
+                    Style="{StaticResource MenuButtonStyle}"
+                    Click="OperationsBtn_Click"/>
+            <!-- Кнопка "Выход" -->
+            <Button x:Name="LogoutBtn" 
+                    Content="Выход" 
+                    Style="{StaticResource MenuButtonStyle}"
+                    Click="LogoutBtn_Click"/>
+            <!-- Кнопка ReportsBtn удалена -->
+        </StackPanel>
+
+        <!-- Основная область для отображения содержимого -->
+        <Frame x:Name="MainFrame" 
+               Grid.Column="2" 
+               NavigationUIVisibility="Hidden"/>
+    </Grid>
+</Window>

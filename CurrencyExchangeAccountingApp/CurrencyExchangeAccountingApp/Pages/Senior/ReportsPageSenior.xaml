@@ -1,0 +1,274 @@
+﻿<Page x:Class="CurrencyExchangeAccountingApp.ReportsPageSenior"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CurrencyExchangeAccountingApp"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Отчеты">
+
+    <!-- Определяем ресурсы страницы -->
+    <Page.Resources>
+
+        <!-- Стиль для кнопок отчетов -->
+        <Style x:Key="ReportButtonStyle" TargetType="Button">
+            <Setter Property="Width" Value="250"/>
+            <!-- Ширина кнопки -->
+            <Setter Property="Height" Value="50"/>
+            <!-- Высота кнопки -->
+            <Setter Property="Margin" Value="10"/>
+            <!-- Отступ от других элементов -->
+            <Setter Property="FontSize" Value="16"/>
+            <!-- Размер шрифта -->
+            <Setter Property="Background" Value="#f9e57c"/>
+            <!-- Цвет фона -->
+            <Setter Property="BorderBrush" Value="Gray"/>
+            <!-- Цвет рамки -->
+            <Setter Property="BorderThickness" Value="1"/>
+            <!-- Толщина рамки -->
+
+            <!-- Изменение цвета при наведении мыши -->
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#f7d933"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- Стиль для компонента выбора дат -->
+        <Style x:Key="DatePickerStyle" TargetType="DatePicker">
+            <Setter Property="Height" Value="35"/>
+            <!-- Высота элемента -->
+            <Setter Property="Margin" Value="10,5"/>
+            <!-- Вертикальный и горизонтальный отступ -->
+            <Setter Property="Padding" Value="8,0,8,0"/>
+            <!-- Внутренние отступы -->
+            <Setter Property="FontSize" Value="16"/>
+            <!-- Размер шрифта -->
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <!-- Выравнивание текста -->
+            <Setter Property="BorderBrush" Value="Gray"/>
+            <!-- Цвет рамки -->
+            <Setter Property="BorderThickness" Value="1"/>
+            <!-- Толщина рамки -->
+        </Style>
+
+        <!-- Стиль для меток (надписей) -->
+        <Style x:Key="LabelStyle" TargetType="TextBlock">
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <!-- Выравнивание по вертикали -->
+            <Setter Property="Margin" Value="10,5"/>
+            <!-- Отступ от других элементов -->
+            <Setter Property="FontSize" Value="16"/>
+            <!-- Размер шрифта -->
+        </Style>
+
+        <!-- Стиль для таблицы данных (DataGrid) -->
+        <Style x:Key="ReportDataGridStyle" TargetType="DataGrid">
+            <Setter Property="Background" Value="White"/>
+            <!-- Цвет фона таблицы -->
+            <Setter Property="BorderBrush" Value="LightGray"/>
+            <!-- Цвет границы -->
+            <Setter Property="BorderThickness" Value="1"/>
+            <!-- Толщина границы -->
+            <Setter Property="RowBackground" Value="Transparent"/>
+            <!-- Цвет строк -->
+            <Setter Property="AlternatingRowBackground" Value="#f9f9f9"/>
+            <!-- Цвет альтернативных строк -->
+            <Setter Property="HeadersVisibility" Value="Column"/>
+            <!-- Видимость заголовков -->
+            <Setter Property="AutoGenerateColumns" Value="False"/>
+            <!-- Автоматическое создание столбцов -->
+            <Setter Property="CanUserAddRows" Value="False"/>
+            <!-- Разрешение добавления строк -->
+            <Setter Property="CanUserDeleteRows" Value="False"/>
+            <!-- Разрешение удаления строк -->
+            <Setter Property="CanUserReorderColumns" Value="True"/>
+            <!-- Разрешение перестановки столбцов -->
+            <Setter Property="CanUserResizeColumns" Value="True"/>
+            <!-- Разрешение изменения ширины столбцов -->
+            <Setter Property="CanUserResizeRows" Value="False"/>
+            <!-- Разрешение изменения высоты строк -->
+            <Setter Property="CanUserSortColumns" Value="True"/>
+            <!-- Разрешение сортировки столбцов -->
+            <Setter Property="SelectionMode" Value="Single"/>
+            <!-- Режим выбора строк -->
+            <Setter Property="SelectionUnit" Value="FullRow"/>
+            <!-- Единица выбора - вся строка -->
+            <Setter Property="GridLinesVisibility" Value="All"/>
+            <!-- Видимость линий сетки -->
+            <Setter Property="ScrollViewer.CanContentScroll" Value="True"/>
+            <!-- Позволяет скроллинг -->
+            <Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Auto"/>
+            <!-- Вертикальная полоса прокрутки -->
+            <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Auto"/>
+            <!-- Горизонтальная полоса прокрутки -->
+        </Style>
+
+        <!-- Стиль для заголовков столбцов таблицы -->
+        <Style x:Key="ReportDataGridColumnHeaderStyle" TargetType="DataGridColumnHeader">
+            <Setter Property="Background" Value="#f0f0f0"/>
+            <!-- Цвет фона заголовка -->
+            <Setter Property="BorderBrush" Value="LightGray"/>
+            <!-- Цвет границы -->
+            <Setter Property="BorderThickness" Value="1,1,1,1"/>
+            <!-- Толщина границы -->
+            <Setter Property="Padding" Value="10,5"/>
+            <!-- Внутренние отступы -->
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <!-- Выравнивание по горизонтали -->
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <!-- Выравнивание по вертикали -->
+            <Setter Property="FontWeight" Value="Bold"/>
+            <!-- Жирный шрифт -->
+            <Setter Property="FontSize" Value="16"/>
+            <!-- Размер шрифта -->
+            <Setter Property="Cursor" Value="Hand"/>
+            <!-- Изменение курсора при наведении -->
+        </Style>
+
+        <!-- Стиль для строк таблицы -->
+        <Style x:Key="ReportDataGridRowStyle" TargetType="DataGridRow">
+            <Setter Property="BorderBrush" Value="LightGray"/>
+            <!-- Цвет границы строки -->
+            <Setter Property="BorderThickness" Value="0,0,0,1"/>
+            <!-- Толщина границы строки -->
+            <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+            <!-- Расширение по горизонтали -->
+            <Setter Property="VerticalContentAlignment" Value="Stretch"/>
+            <!-- Расширение по вертикали -->
+            <Setter Property="Padding" Value="0"/>
+            <!-- Внутренние отступы -->
+            <Setter Property="Background" Value="Transparent"/>
+            <!-- Цвет фона строки -->
+
+            <!-- Изменение цвета при наведении мыши -->
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#f9e57c"/>
+                </Trigger>
+
+                <!-- Изменение цвета при выделении строки -->
+                <Trigger Property="IsSelected" Value="True">
+                    <Setter Property="Background" Value="#f7d933"/>
+                    <Setter Property="BorderBrush" Value="DarkGray"/>
+                    <Setter Property="BorderThickness" Value="1"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- Стиль для ячеек таблицы -->
+        <Style x:Key="ReportDataGridCellStyle" TargetType="DataGridCell">
+            <Setter Property="Padding" Value="5"/>
+            <!-- Внутренние отступы -->
+            <Setter Property="BorderBrush" Value="LightGray"/>
+            <!-- Цвет границы ячейки -->
+            <Setter Property="BorderThickness" Value="0,0,1,0"/>
+            <!-- Толщина границы ячейки -->
+            <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+            <!-- Отключение визуализации фокуса -->
+            <Setter Property="Background" Value="Transparent"/>
+            <!-- Цвет фона ячейки -->
+            <Setter Property="TextBlock.TextWrapping" Value="Wrap"/>
+            <!-- Перенос текста -->
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <!-- Выравнивание по вертикали -->
+
+            <!-- Настройка внешнего вида ячейки -->
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="DataGridCell">
+                        <Border Padding="{TemplateBinding Padding}" 
+                                Background="{TemplateBinding Background}" 
+                                BorderBrush="{TemplateBinding BorderBrush}" 
+                                BorderThickness="{TemplateBinding BorderThickness}">
+                            <ContentPresenter VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
+
+    <!-- Основная сетка страницы -->
+    <Grid>
+
+        <!-- Вертикальная линия разделителя -->
+        <Border Grid.Column="1" Width="1" Background="Black"/>
+
+        <!-- Основной контент страницы -->
+        <Grid Grid.Column="2" Background="White">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <!-- Заголовок -->
+                <RowDefinition Height="*"/>
+                <!-- Основной контент -->
+            </Grid.RowDefinitions>
+
+            <!-- Заголовок страницы -->
+            <Border Grid.Row="0" Background="#f0f0f0" Padding="10">
+                <TextBlock Text="Отчеты" 
+                           FontSize="18" 
+                           FontWeight="Bold"
+                           VerticalAlignment="Center"/>
+            </Border>
+
+            <!-- Прокручиваемый контент -->
+            <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+                <StackPanel Margin="20">
+
+                    <!-- Выбор периода -->
+                    <StackPanel Orientation="Horizontal" Margin="0,10">
+                        <TextBlock Text="Период с:" Style="{StaticResource LabelStyle}"/>
+                        <DatePicker x:Name="StartDatePicker" Style="{StaticResource DatePickerStyle}"/>
+                        <TextBlock Text="по:" Style="{StaticResource LabelStyle}" Margin="10,5,0,5"/>
+                        <DatePicker x:Name="EndDatePicker" Style="{StaticResource DatePickerStyle}"/>
+
+                        <!-- Кнопки генерации отчетов -->
+                        <Button x:Name="OperationsReportBtn" 
+                                Content="Отчет по операциям" 
+                                Style="{StaticResource ReportButtonStyle}"
+                                Click="OperationsReportBtn_Click"/>
+                        <Button x:Name="ExchangeRatesReportBtn" 
+                                Content="Отчет по курсам валют" 
+                                Style="{StaticResource ReportButtonStyle}"
+                                Click="ExchangeRatesReportBtn_Click"/>
+                        <Button x:Name="CurrencyBalancesReportBtn" 
+                                Content="Отчет по остаткам валют" 
+                                Style="{StaticResource ReportButtonStyle}"
+                                Click="CurrencyBalancesReportBtn_Click"/>
+                    </StackPanel>
+
+                    <!-- Превью отчета -->
+                    <Border BorderBrush="LightGray" BorderThickness="1" Margin="0,20" Padding="10">
+                        <StackPanel>
+                            <TextBlock Text="Предпросмотр отчета" 
+                                       FontWeight="Bold" 
+                                       FontSize="16"
+                                       Margin="0,0,0,10"/>
+
+                            <!-- Таблица данных -->
+                            <DataGrid x:Name="ReportDataGrid" 
+                                      Height="680"
+                                      Style="{StaticResource ReportDataGridStyle}"
+                                      ColumnHeaderStyle="{StaticResource ReportDataGridColumnHeaderStyle}"
+                                      RowStyle="{StaticResource ReportDataGridRowStyle}"
+                                      CellStyle="{StaticResource ReportDataGridCellStyle}"
+                                      AutoGeneratingColumn="ReportDataGrid_AutoGeneratingColumn"/>
+
+                            <!-- Кнопка экспорта в Excel -->
+                            <Button x:Name="ExportToExcelBtn" 
+                                    Content="Экспорт в Excel" 
+                                    Width="150"
+                                    HorizontalAlignment="Right"
+                                    Margin="0,10,0,0"
+                                    Style="{StaticResource ReportButtonStyle}"
+                                    Click="ExportToExcelBtn_Click"/>
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+    </Grid>
+</Page>

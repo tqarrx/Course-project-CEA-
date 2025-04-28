@@ -1,0 +1,330 @@
+C:\Users\Student22_07\source\repos\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\CurrencyExchangeAccountingApp.exe.config
+C:\Users\Student22_07\source\repos\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\CurrencyExchangeAccountingApp.exe
+C:\Users\Student22_07\source\repos\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\CurrencyExchangeAccountingApp.pdb
+C:\Users\Student22_07\source\repos\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp.csproj.AssemblyReference.cache
+C:\Users\Student22_07\source\repos\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\MainWindow.g.cs
+C:\Users\Student22_07\source\repos\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\App.g.cs
+C:\Users\Student22_07\source\repos\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp_MarkupCompile.cache
+C:\Users\Student22_07\source\repos\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp_MarkupCompile.lref
+C:\Users\Student22_07\source\repos\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\MainWindow.baml
+C:\Users\Student22_07\source\repos\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp.g.resources
+C:\Users\Student22_07\source\repos\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp.Properties.Resources.resources
+C:\Users\Student22_07\source\repos\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp.csproj.GenerateResource.cache
+C:\Users\Student22_07\source\repos\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp.csproj.CoreCompileInputs.cache
+C:\Users\Student22_07\source\repos\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp.exe
+C:\Users\Student22_07\source\repos\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp.pdb
+C:\Users\Student22_07\source\repos\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\EntityFramework.dll
+C:\Users\Student22_07\source\repos\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Student22_07\source\repos\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\EntityFramework.xml
+C:\Users\Student22_07\source\repos\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Student22_07\source\repos\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Student22_07\source\repos\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp_Content.g.cs
+C:\Users\Student22_07\source\repos\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Currency.00782741.Up2Date
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\CurrencyExchangeAccountingApp.exe.config
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\CurrencyExchangeAccountingApp.exe
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\CurrencyExchangeAccountingApp.pdb
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\EntityFramework.dll
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\EntityFramework.xml
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp.csproj.AssemblyReference.cache
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\MainWindow.g.cs
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\App.g.cs
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp_Content.g.cs
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp_MarkupCompile.cache
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp_MarkupCompile.lref
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\MainWindow.baml
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp.g.resources
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp.Properties.Resources.resources
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp.csproj.GenerateResource.cache
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp.csproj.CoreCompileInputs.cache
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Currency.00782741.Up2Date
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp.exe
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp.pdb
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\Bogus.dll
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\Bogus.xml
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\CurrencyExchangeAccountingApp.exe.config
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\CurrencyExchangeAccountingApp.exe
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\CurrencyExchangeAccountingApp.pdb
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\Bogus.dll
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\EntityFramework.dll
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\Bogus.xml
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\EntityFramework.xml
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\ru\EntityFramework.resources.dll
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp.csproj.AssemblyReference.cache
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\MainWindow.g.cs
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\App.g.cs
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp_Content.g.cs
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp_MarkupCompile.cache
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp_MarkupCompile.lref
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\MainWindow.baml
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp.g.resources
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp.Properties.Resources.resources
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp.csproj.GenerateResource.cache
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp.csproj.CoreCompileInputs.cache
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Currency.00782741.Up2Date
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp.exe
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp.pdb
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\CurrencyExchangeAccountingApp.exe.config
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\CurrencyExchangeAccountingApp.exe
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\CurrencyExchangeAccountingApp.pdb
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\Bogus.dll
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\EntityFramework.dll
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\Bogus.xml
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\EntityFramework.xml
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp.csproj.AssemblyReference.cache
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\AddOperationsPageSenior.baml
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CodeConfirmationWindow.baml
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrenciesPageSenior.baml
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\EditCurrencyBalancePageSenior.baml
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\ExchangeRatesPageSenior.baml
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\OperationsPageSenior.baml
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\AddOperationsPageSenior.g.cs
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CodeConfirmationWindow.g.cs
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrenciesPageOperator.g.cs
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrenciesPageSenior.g.cs
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\EditCurrencyBalancePageSenior.g.cs
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\EditOperationsPageSenior.g.cs
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\ExchangeRatesPageOperator.g.cs
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\ExchangeRatesPageSenior.g.cs
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\GeneralWindow.g.cs
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\MainWindow.g.cs
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\OperationsPageOperator.g.cs
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\OperationsPageSenior.g.cs
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\ReportsPageSenior.g.cs
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\App.g.cs
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp_Content.g.cs
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp_MarkupCompile.cache
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp_MarkupCompile.lref
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrenciesPageOperator.baml
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\EditOperationsPageSenior.baml
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\ExchangeRatesPageOperator.baml
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\GeneralWindow.baml
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\MainWindow.baml
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\OperationsPageOperator.baml
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\ReportsPageSenior.baml
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp.g.resources
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp.Properties.Resources.resources
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp.csproj.GenerateResource.cache
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp.csproj.CoreCompileInputs.cache
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Currency.00782741.Up2Date
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp.exe
+C:\Users\7-lek\Desktop\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp.pdb
+D:\other\study\3 курс\Новая папка\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp.csproj.AssemblyReference.cache
+D:\other\study\3 курс\Новая папка\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\AddOperationsPageSenior.baml
+D:\other\study\3 курс\Новая папка\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Shared\CodeConfirmationWindow.baml
+D:\other\study\3 курс\Новая папка\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\CurrenciesPageSenior.baml
+D:\other\study\3 курс\Новая папка\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\EditCurrencyBalancePageSenior.baml
+D:\other\study\3 курс\Новая папка\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\ExchangeRatesPageSenior.baml
+D:\other\study\3 курс\Новая папка\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\OperationsPageSenior.baml
+D:\other\study\3 курс\Новая папка\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\AddOperationsPageOperator.g.cs
+D:\other\study\3 курс\Новая папка\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\EditCurrencyBalancePageOperator.g.cs
+D:\other\study\3 курс\Новая папка\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\EditOperationsPageOperator.g.cs
+D:\other\study\3 курс\Новая папка\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\AddOperationsPageSenior.g.cs
+D:\other\study\3 курс\Новая папка\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Shared\CodeConfirmationWindow.g.cs
+D:\other\study\3 курс\Новая папка\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\CurrenciesPageOperator.g.cs
+D:\other\study\3 курс\Новая папка\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\CurrenciesPageSenior.g.cs
+D:\other\study\3 курс\Новая папка\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\EditCurrencyBalancePageSenior.g.cs
+D:\other\study\3 курс\Новая папка\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\EditOperationsPageSenior.g.cs
+D:\other\study\3 курс\Новая папка\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\ExchangeRatesPageOperator.g.cs
+D:\other\study\3 курс\Новая папка\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\ExchangeRatesPageSenior.g.cs
+D:\other\study\3 курс\Новая папка\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Shared\GeneralWindow.g.cs
+D:\other\study\3 курс\Новая папка\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\MainWindow.g.cs
+D:\other\study\3 курс\Новая папка\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\OperationsPageOperator.g.cs
+D:\other\study\3 курс\Новая папка\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\OperationsPageSenior.g.cs
+D:\other\study\3 курс\Новая папка\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\ReportsPageSenior.g.cs
+D:\other\study\3 курс\Новая папка\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\App.g.cs
+D:\other\study\3 курс\Новая папка\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp_Content.g.cs
+D:\other\study\3 курс\Новая папка\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp_MarkupCompile.cache
+D:\other\study\3 курс\Новая папка\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp_MarkupCompile.lref
+D:\other\study\3 курс\Новая папка\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp.exe
+D:\other\study\3 курс\Новая папка\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp.pdb
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\AddOperationsPageSenior.baml
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Shared\CodeConfirmationWindow.baml
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\CurrenciesPageSenior.baml
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\EditCurrencyBalancePageSenior.baml
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\ExchangeRatesPageSenior.baml
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\OperationsPageSenior.baml
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\AddOperationsPageOperator.g.cs
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\EditOperationsPageOperator.g.cs
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\AddOperationsPageSenior.g.cs
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Shared\CodeConfirmationWindow.g.cs
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\CurrenciesPageOperator.g.cs
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\CurrenciesPageSenior.g.cs
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\EditCurrencyBalancePageSenior.g.cs
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\EditOperationsPageSenior.g.cs
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\ExchangeRatesPageOperator.g.cs
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\ExchangeRatesPageSenior.g.cs
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\OperationsPageOperator.g.cs
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\OperationsPageSenior.g.cs
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\ReportsPageSenior.g.cs
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\AddOperationsPageOperator.baml
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\EditOperationsPageOperator.baml
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\CurrenciesPageOperator.baml
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\EditOperationsPageSenior.baml
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\ExchangeRatesPageOperator.baml
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\OperationsPageOperator.baml
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\ReportsPageSenior.baml
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\App.baml
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\GeneralWindowOperator.g.cs
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\GeneralWindowSenior.g.cs
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\GeneralWindowOperator.baml
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\GeneralWindowSenior.baml
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\CurrencyExchangeAccountingApp.exe.config
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\CurrencyExchangeAccountingApp.exe
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\CurrencyExchangeAccountingApp.pdb
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\Bogus.dll
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\EntityFramework.dll
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\Bogus.xml
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\EntityFramework.xml
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\nl-BE\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp.csproj.AssemblyReference.cache
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\AddOperationsPageSenior.baml
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Shared\CodeConfirmationWindow.baml
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\CurrenciesPageSenior.baml
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\EditCurrencyBalancePageSenior.baml
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\ExchangeRatesPageSenior.baml
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\OperationsPageSenior.baml
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\AddOperationsPageOperator.g.cs
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\EditOperationsPageOperator.g.cs
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\GeneralWindowOperator.g.cs
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\AddOperationsPageSenior.g.cs
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\GeneralWindowSenior.g.cs
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Shared\CodeConfirmationWindow.g.cs
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\CurrenciesPageOperator.g.cs
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\CurrenciesPageSenior.g.cs
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\EditCurrencyBalancePageSenior.g.cs
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\EditOperationsPageSenior.g.cs
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\ExchangeRatesPageOperator.g.cs
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\ExchangeRatesPageSenior.g.cs
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\MainWindow.g.cs
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\OperationsPageOperator.g.cs
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\OperationsPageSenior.g.cs
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\ReportsPageSenior.g.cs
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\App.g.cs
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp_Content.g.cs
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp_MarkupCompile.cache
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp_MarkupCompile.lref
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\App.baml
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\AddOperationsPageOperator.baml
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\EditOperationsPageOperator.baml
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\GeneralWindowOperator.baml
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\GeneralWindowSenior.baml
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\CurrenciesPageOperator.baml
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\EditOperationsPageSenior.baml
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\ExchangeRatesPageOperator.baml
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\MainWindow.baml
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\OperationsPageOperator.baml
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\ReportsPageSenior.baml
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp.g.resources
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp.Properties.Resources.resources
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp.csproj.GenerateResource.cache
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp.csproj.CoreCompileInputs.cache
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Currency.00782741.Up2Date
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp.exe
+C:\Users\7-lek\Desktop\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\CurrencyExchangeAccountingApp.pdb
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\nl-BE\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Student22_07\Documents\к\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\Newtonsoft.Json.dll
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\Xceed.Wpf.AvalonDock.dll
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\Xceed.Wpf.Toolkit.dll
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\Newtonsoft.Json.xml
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\nl-BE\Xceed.Wpf.AvalonDock.resources.dll
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\AddOperationsPageOperator.baml
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\AddOperationsPageSenior.baml
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Shared\CodeConfirmationWindow.baml
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\CurrenciesPageOperator.baml
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\CurrenciesPageSenior.baml
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\EditCurrencyBalancePageSenior.baml
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\ExchangeRatesPageOperator.baml
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\ExchangeRatesPageSenior.baml
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\OperationsPageOperator.baml
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\OperationsPageSenior.baml
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\AddOperationsPageOperator.g.cs
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\EditOperationsPageOperator.g.cs
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\GeneralWindowOperator.g.cs
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\AddOperationsPageSenior.g.cs
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\GeneralWindowSenior.g.cs
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Shared\CodeConfirmationWindow.g.cs
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\CurrenciesPageOperator.g.cs
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\CurrenciesPageSenior.g.cs
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\EditCurrencyBalancePageSenior.g.cs
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\EditOperationsPageSenior.g.cs
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\ExchangeRatesPageOperator.g.cs
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\ExchangeRatesPageSenior.g.cs
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\OperationsPageOperator.g.cs
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\OperationsPageSenior.g.cs
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\ReportsPageSenior.g.cs
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\App.baml
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\EditOperationsPageOperator.baml
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Operator\GeneralWindowOperator.baml
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\GeneralWindowSenior.baml
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\EditOperationsPageSenior.baml
+D:\other\study\3 курс\Курсовой проект УОВ\CurrencyExchangeAccountingApp\CurrencyExchangeAccountingApp\obj\Debug\Pages\Senior\ReportsPageSenior.baml

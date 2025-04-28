@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="90685c1f43254398a1be13e1442be101" Name="Diagram1">
+        <EntityTypeShape EntityType="CurrencyExchangeAccountingModel.Clients" Width="1.5" PointX="3" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CurrencyExchangeAccountingModel.Currencies" Width="1.5" PointX="3" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CurrencyExchangeAccountingModel.ExchangeRates" Width="1.5" PointX="0.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CurrencyExchangeAccountingModel.Operations" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="CurrencyExchangeAccountingModel.Roles" Width="1.5" PointX="0.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CurrencyExchangeAccountingModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CurrencyExchangeAccountingModel.Users" Width="1.5" PointX="3" PointY="9.75" IsExpanded="true" />
+        <AssociationConnector Association="CurrencyExchangeAccountingModel.FK_Operations_Clients" ManuallyRouted="false" />
+        <AssociationConnector Association="CurrencyExchangeAccountingModel.FK_Currencies_ExchangeRates" ManuallyRouted="false" />
+        <AssociationConnector Association="CurrencyExchangeAccountingModel.FK_Operations_Currencies1" ManuallyRouted="false" />
+        <AssociationConnector Association="CurrencyExchangeAccountingModel.FK_Operations_Currencies2" ManuallyRouted="false" />
+        <AssociationConnector Association="CurrencyExchangeAccountingModel.FK_Operations_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="CurrencyExchangeAccountingModel.FK_Operations_Users1" ManuallyRouted="false" />
+        <AssociationConnector Association="CurrencyExchangeAccountingModel.FK_Users_Roles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

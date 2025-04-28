@@ -1,0 +1,236 @@
+﻿<Page x:Class="CurrencyExchangeAccountingApp.EditOperationsPageSenior"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Редактирование операций">
+
+    <Page.Resources>
+        <Style x:Key="InputFieldStyle" TargetType="TextBox">
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="Margin" Value="10,5"/>
+            <Setter Property="Padding" Value="8,0,8,0"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="BorderBrush" Value="Gray"/>
+            <Setter Property="BorderThickness" Value="1"/>
+        </Style>
+
+        <Style x:Key="ComboBoxStyle" TargetType="ComboBox">
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="Margin" Value="10,5"/>
+            <Setter Property="Padding" Value="8,0,8,0"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="BorderBrush" Value="Gray"/>
+            <Setter Property="BorderThickness" Value="1"/>
+        </Style>
+
+        <Style x:Key="LabelStyle" TargetType="TextBlock">
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="10,5"/>
+            <Setter Property="FontSize" Value="16"/>
+        </Style>
+
+        <Style x:Key="FormButtonStyle" TargetType="Button">
+            <Setter Property="Width" Value="150"/>
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="Margin" Value="10,5"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Background" Value="#f9e57c"/>
+            <Setter Property="BorderBrush" Value="Gray"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#f7d933"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="SectionHeaderStyle" TargetType="TextBlock">
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Margin" Value="10,20,10,5"/>
+        </Style>
+
+        <Style x:Key="DatePickerStyle" TargetType="DatePicker">
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="Margin" Value="10,5"/>
+            <Setter Property="Padding" Value="8,0,8,0"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="BorderBrush" Value="Gray"/>
+            <Setter Property="BorderThickness" Value="1"/>
+        </Style>
+    </Page.Resources>
+
+    <Grid>
+        <Border Grid.Column="1" Width="1" Background="Black"/>
+        <Grid Grid.Column="2" Background="White">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <!-- Заголовок страницы -->
+            <Border Grid.Row="0" Background="#f0f0f0" Padding="10">
+                <TextBlock Text="Редактирование операции" 
+                           FontSize="18" 
+                           FontWeight="Bold"
+                           VerticalAlignment="Center"/>
+            </Border>
+
+            <!-- Основной контент -->
+            <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+                <StackPanel Margin="20">
+                    <!-- Информация о клиенте -->
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="Клиент:" Style="{StaticResource LabelStyle}"/>
+                        <TextBlock x:Name="ClientNameTextBlock" Grid.Column="1" 
+                                   Style="{StaticResource LabelStyle}"/>
+                        <Button x:Name="EditClientButton" Grid.Column="2"
+                                Content="Изменить" 
+                                Style="{StaticResource FormButtonStyle}"
+                                Click="EditClientButton_Click"
+                                Margin="20,5,10,5"/>
+                    </Grid>
+
+                    <!-- Панель редактирования клиента -->
+                    <StackPanel x:Name="EditClientPanel" Visibility="Collapsed">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Text="ФИО:" Style="{StaticResource LabelStyle}"/>
+                            <TextBox x:Name="EditClientNameTextBox" Grid.Column="1" 
+                                     Style="{StaticResource InputFieldStyle}"/>
+                        </Grid>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Text="Серия паспорта:" Style="{StaticResource LabelStyle}"/>
+                            <TextBox x:Name="EditPassportSeriesTextBox" Grid.Column="1" 
+                                     Style="{StaticResource InputFieldStyle}"/>
+                        </Grid>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Text="Номер паспорта:" Style="{StaticResource LabelStyle}"/>
+                            <TextBox x:Name="EditPassportNumberTextBox" Grid.Column="1" 
+                                     Style="{StaticResource InputFieldStyle}"/>
+                        </Grid>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Text="Код подразделения:" Style="{StaticResource LabelStyle}"/>
+                            <TextBox x:Name="EditDepartmentCodeTextBox" Grid.Column="1" 
+                                     Style="{StaticResource InputFieldStyle}"/>
+                        </Grid>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Text="Кем выдан:" Style="{StaticResource LabelStyle}"/>
+                            <TextBox x:Name="EditIssuedByTextBox" Grid.Column="1" 
+                                     Style="{StaticResource InputFieldStyle}"/>
+                        </Grid>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Text="Дата выдачи:" Style="{StaticResource LabelStyle}"/>
+                            <DatePicker x:Name="EditIssuedDatePicker" Grid.Column="1" 
+                                        Style="{StaticResource DatePickerStyle}"/>
+                        </Grid>
+                    </StackPanel>
+
+                    <!-- Детали операции -->
+                    <TextBlock Text="Детали операции" Style="{StaticResource SectionHeaderStyle}"/>
+
+                    <!-- Две колонки для валют -->
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <!-- Колонка 1: Валюта продажи -->
+                        <StackPanel Grid.Column="0" Margin="10,0">
+                            <TextBlock Text="Валюта продажи:" Style="{StaticResource LabelStyle}"/>
+                            <ComboBox x:Name="CurrencyFromComboBox" 
+                                      Style="{StaticResource ComboBoxStyle}"
+                                      DisplayMemberPath="Currency_Name"/>
+
+                            <TextBlock Text="Сумма продажи:" Style="{StaticResource LabelStyle}" Margin="0,10,0,0"/>
+                            <TextBox x:Name="AmountFromTextBox" 
+                                     Style="{StaticResource InputFieldStyle}"/>
+
+                            <TextBlock Text="Курс продажи:" Style="{StaticResource LabelStyle}" Margin="0,10,0,0"/>
+                            <TextBlock x:Name="BuyRateTextBlock" 
+                                       Style="{StaticResource LabelStyle}"/>
+                        </StackPanel>
+
+                        <!-- Колонка 2: Валюта покупки -->
+                        <StackPanel Grid.Column="1" Margin="10,0">
+                            <TextBlock Text="Валюта покупки:" Style="{StaticResource LabelStyle}"/>
+                            <ComboBox x:Name="CurrencyToComboBox" 
+                                      Style="{StaticResource ComboBoxStyle}"
+                                      DisplayMemberPath="Currency_Name"/>
+
+                            <TextBlock Text="Сумма покупки:" Style="{StaticResource LabelStyle}" Margin="0,10,0,0"/>
+                            <TextBox x:Name="AmountToTextBox" 
+                                     Style="{StaticResource InputFieldStyle}"
+                                     IsReadOnly="True"/>
+
+                            <TextBlock Text="Курс покупки:" Style="{StaticResource LabelStyle}" Margin="0,10,0,0"/>
+                            <TextBlock x:Name="SellRateTextBlock" 
+                                       Style="{StaticResource LabelStyle}"/>
+                        </StackPanel>
+                    </Grid>
+
+                    <!-- Дата операции -->
+                    <Grid Margin="0,20,0,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="Дата операции:" Style="{StaticResource LabelStyle}"/>
+                        <DatePicker x:Name="OperationDatePicker" Grid.Column="1" 
+                                    Style="{StaticResource DatePickerStyle}"
+                                    IsEnabled="False"/>
+                    </Grid>
+                </StackPanel>
+            </ScrollViewer>
+
+            <!-- Кнопки действий в правом нижнем углу -->
+            <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="10">
+                <Button x:Name="CalculateButton" Content="Пересчитать" 
+                        Style="{StaticResource FormButtonStyle}"
+                        Click="CalculateButton_Click"/>
+                <Button x:Name="SaveButton" Content="Сохранить" 
+                        Style="{StaticResource FormButtonStyle}"
+                        Click="SaveButton_Click"/>
+                <Button x:Name="CancelButton" Content="Отмена" 
+                        Style="{StaticResource FormButtonStyle}"
+                        Click="CancelButton_Click"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>

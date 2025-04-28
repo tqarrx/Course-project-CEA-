@@ -1,0 +1,212 @@
+﻿<Window x:Class="CurrencyExchangeAccountingApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CurrencyExchangeAccountingApp"
+        mc:Ignorable="d"
+        Title="Авторизация" Height="400" Width="800" 
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize">
+    <!-- Основные настройки окна: фиксированный размер, запрет изменения размера и центрирование на экране -->
+
+    <Window.Resources>
+        <!-- Общий стиль для текстовых полей -->
+        <Style x:Key="InputFieldStyle" TargetType="FrameworkElement">
+            <!-- Устанавливает высоту и вертикальное выравнивание для всех текстовых полей -->
+            <Setter Property="Height" Value="25"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+
+        <!-- Стиль для текстовых полей (TextBox) с закругленными углами -->
+        <Style x:Key="RoundedTextBox" TargetType="TextBox" BasedOn="{StaticResource InputFieldStyle}">
+            <!-- Устанавливает ширину, отступы и шаблон для текстового поля -->
+            <Setter Property="Width" Value="180"/>
+            <Setter Property="Padding" Value="5,0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <!-- Создает границу с закругленными углами и черной рамкой -->
+                        <Border x:Name="border" 
+                                CornerRadius="10"
+                                Background="White"
+                                BorderBrush="Black"
+                                BorderThickness="1">
+                            <!-- Внутренний контент текстового поля -->
+                            <ScrollViewer x:Name="PART_ContentHost"
+                                          VerticalAlignment="Center"
+                                          HorizontalAlignment="Left"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Стиль для полей ввода пароля (PasswordBox) с закругленными углами -->
+        <Style x:Key="RoundedPasswordBox" TargetType="PasswordBox" BasedOn="{StaticResource InputFieldStyle}">
+            <!-- Аналогичен стилю RoundedTextBox, но применяется к PasswordBox -->
+            <Setter Property="Width" Value="180"/>
+            <Setter Property="Padding" Value="5,0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="PasswordBox">
+                        <!-- Граница с закругленными углами для поля ввода пароля -->
+                        <Border x:Name="border" 
+                                CornerRadius="10"
+                                Background="White"
+                                BorderBrush="Black"
+                                BorderThickness="1">
+                            <!-- Внутренний контент поля ввода пароля -->
+                            <ScrollViewer x:Name="PART_ContentHost"
+                                          VerticalAlignment="Center"
+                                          HorizontalAlignment="Left"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Общий стиль для кнопок -->
+        <Style x:Key="ButtonStyle" TargetType="Button">
+            <!-- Устанавливает цвет фона, рамку, текст и размеры кнопки -->
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="Black"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="Height" Value="20"/>
+            <Setter Property="Width" Value="70"/>
+            <Setter Property="Margin" Value="5,0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <!-- Граница с закругленными углами для кнопки -->
+                        <Border x:Name="border" 
+                                CornerRadius="5"
+                                Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}">
+                            <!-- Текст кнопки -->
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+                        </Border>
+                        <!-- Триггеры для визуальных эффектов при наведении и нажатии -->
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#F2F2F2"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#E0E0E0"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <!-- Основной контейнер с белым фоном и закругленными углами -->
+        <Border BorderBrush="Black" BorderThickness="1" CornerRadius="10"
+                VerticalAlignment="Center" HorizontalAlignment="Center"
+                Padding="25" Background="White">
+
+            <StackPanel Width="250">
+                <!-- Заголовок окна -->
+                <TextBlock Text="Авторизация" 
+                           FontSize="20" 
+                           FontWeight="Bold"
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,20"/>
+
+                <!-- Поле ввода логина -->
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <!-- Метка "Логин" -->
+                    <TextBlock Text="Логин" 
+                               VerticalAlignment="Center"
+                               Margin="0,0,17.5,0"
+                               Style="{StaticResource InputFieldStyle}"/>
+                    <!-- Текстовое поле для ввода логина -->
+                    <TextBox x:Name="LoginTextBox" 
+                             Grid.Column="1"
+                             Style="{StaticResource RoundedTextBox}"/>
+                </Grid>
+
+                <!-- Поле ввода пароля -->
+                <Grid Margin="0,15,0,20">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <!-- Метка "Пароль" -->
+                    <TextBlock Text="Пароль" 
+                               VerticalAlignment="Center"
+                               Margin="0,0,10,0"
+                               Style="{StaticResource InputFieldStyle}"/>
+                    <!-- Поле ввода пароля -->
+                    <PasswordBox x:Name="PasswordBox" 
+                                 Grid.Column="1"
+                                 Style="{StaticResource RoundedPasswordBox}"/>
+                </Grid>
+
+                <!-- Поле ввода кода подтверждения (изначально скрыто) -->
+                <Grid x:Name="CodeGrid" Margin="0,15,0,20" Visibility="Collapsed">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <!-- Метка "Код подтверждения" -->
+                    <TextBlock Text="Код подтверждения" 
+                               VerticalAlignment="Center"
+                               Margin="0,0,10,0"
+                               Style="{StaticResource InputFieldStyle}"/>
+                    <!-- Текстовое поле для ввода кода -->
+                    <TextBox x:Name="CodeTextBox" 
+                             Grid.Column="1"
+                             Width="100"
+                             MaxLength="4"
+                             Style="{StaticResource RoundedTextBox}"/>
+                </Grid>
+
+                <!-- Панель кнопок -->
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Пустое пространство слева -->
+                    <Border Grid.Column="0"/>
+
+                    <!-- Кнопка "Отмена" -->
+                    <Button x:Name="CancelButton" 
+                            Content="Отмена"
+                            Margin="0,0,100,0"
+                            Grid.Column="1"
+                            Style="{StaticResource ButtonStyle}"
+                            Click="CancelButton_Click"/>
+
+                    <!-- Кнопка "Вход" -->
+                    <Button x:Name="LoginButton" 
+                            Content="Вход"
+                            Grid.Column="2"
+                            Style="{StaticResource ButtonStyle}"
+                            IsEnabled="False"/>
+
+                    <!-- Кнопка "Повторить отправку" (изначально скрыта) -->
+                    <Button x:Name="ResendButton" 
+                            Content="Повторить"
+                            Margin="75,0,0,0"
+                            Grid.Column="1"
+                            Style="{StaticResource ButtonStyle}"
+                            Visibility="Collapsed"
+                            Click="ResendButton_Click"/>
+                </Grid>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

@@ -1,0 +1,26 @@
+﻿<Window x:Class="CurrencyExchangeAccountingApp.CodeConfirmationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Код подтверждения" Height="200" Width="300"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize">
+    <!-- Окно для отображения кода подтверждения. -->
+    <Grid>
+        <!-- Основной контейнер с центрированными элементами. -->
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+
+            <!-- Инструкция для пользователя. -->
+            <TextBlock Text="Ваш код подтверждения:" 
+                       FontSize="16" Margin="0,0,0,20"/>
+
+            <!-- Отображение кода подтверждения. -->
+            <TextBlock x:Name="CodeTextBlock" 
+                       FontSize="24" FontWeight="Bold"
+                       HorizontalAlignment="Center"/>
+
+            <!-- Информация о времени действия кода. -->
+            <TextBlock Text="Код действителен в течение 10 секунд" 
+                       Margin="0,20,0,0" FontStyle="Italic"/>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B7FC1641-D9CC-4761-B83D-F5D91A195A68}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CurrencyExchangeAccountingApp</RootNamespace>
+    <AssemblyName>CurrencyExchangeAccountingApp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>5</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bogus, Version=35.6.2.0, Culture=neutral, PublicKeyToken=fa1bb3f3f218129a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bogus.35.6.2\lib\net40\Bogus.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1001\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="Xceed.Wpf.AvalonDock, Version=4.7.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.4.7.25104.5739\lib\net40\Xceed.Wpf.AvalonDock.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.Aero, Version=4.7.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.4.7.25104.5739\lib\net40\Xceed.Wpf.AvalonDock.Themes.Aero.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.Metro, Version=4.7.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.4.7.25104.5739\lib\net40\Xceed.Wpf.AvalonDock.Themes.Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.VS2010, Version=4.7.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.4.7.25104.5739\lib\net40\Xceed.Wpf.AvalonDock.Themes.VS2010.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.Toolkit, Version=4.7.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.4.7.25104.5739\lib\net40\Xceed.Wpf.Toolkit.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Data\Models\Clients.cs">
+      <DependentUpon>CurrencyExchangeAccountingModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Models\Currencies.cs">
+      <DependentUpon>CurrencyExchangeAccountingModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Models\CurrencyExchangeAccountingModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CurrencyExchangeAccountingModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Models\CurrencyExchangeAccountingModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CurrencyExchangeAccountingModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Models\CurrencyExchangeAccountingModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CurrencyExchangeAccountingModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Models\ExchangeRates.cs">
+      <DependentUpon>CurrencyExchangeAccountingModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Models\Operations.cs">
+      <DependentUpon>CurrencyExchangeAccountingModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Models\Roles.cs">
+      <DependentUpon>CurrencyExchangeAccountingModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Models\sysdiagrams.cs">
+      <DependentUpon>CurrencyExchangeAccountingModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Models\Users.cs">
+      <DependentUpon>CurrencyExchangeAccountingModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Operator\AddOperationsPageOperator.xaml.cs">
+      <DependentUpon>AddOperationsPageOperator.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Operator\EditOperationsPageOperator.xaml.cs">
+      <DependentUpon>EditOperationsPageOperator.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Operator\GeneralWindowOperator.xaml.cs">
+      <DependentUpon>GeneralWindowOperator.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Senior\AddOperationsPageSenior.xaml.cs">
+      <DependentUpon>AddOperationsPageSenior.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Senior\GeneralWindowSenior.xaml.cs">
+      <DependentUpon>GeneralWindowSenior.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Shared\CodeConfirmationWindow.xaml.cs">
+      <DependentUpon>CodeConfirmationWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Operator\CurrenciesPageOperator.xaml.cs">
+      <DependentUpon>CurrenciesPageOperator.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Senior\CurrenciesPageSenior.xaml.cs">
+      <DependentUpon>CurrenciesPageSenior.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Services\CurrencyDataUpdater.cs" />
+    <Compile Include="Scheduling\CurrencyScheduler.cs" />
+    <Compile Include="Pages\Senior\EditCurrencyBalancePageSenior.xaml.cs">
+      <DependentUpon>EditCurrencyBalancePageSenior.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Senior\EditOperationsPageSenior.xaml.cs">
+      <DependentUpon>EditOperationsPageSenior.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Operator\ExchangeRatesPageOperator.xaml.cs">
+      <DependentUpon>ExchangeRatesPageOperator.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Senior\ExchangeRatesPageSenior.xaml.cs">
+      <DependentUpon>ExchangeRatesPageSenior.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\Logger.cs" />
+    <Compile Include="Pages\Operator\OperationsPageOperator.xaml.cs">
+      <DependentUpon>OperationsPageOperator.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Senior\OperationsPageSenior.xaml.cs">
+      <DependentUpon>OperationsPageSenior.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Senior\ReportsPageSenior.xaml.cs">
+      <DependentUpon>ReportsPageSenior.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\SchedulerConfig.cs" />
+    <Page Include="Pages\Operator\AddOperationsPageOperator.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Operator\EditOperationsPageOperator.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Operator\GeneralWindowOperator.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Senior\AddOperationsPageSenior.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Senior\GeneralWindowSenior.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Shared\CodeConfirmationWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Operator\CurrenciesPageOperator.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Senior\CurrenciesPageSenior.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Senior\EditCurrencyBalancePageSenior.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Senior\EditOperationsPageSenior.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Operator\ExchangeRatesPageOperator.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Senior\ExchangeRatesPageSenior.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Pages\Operator\OperationsPageOperator.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Senior\OperationsPageSenior.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Senior\ReportsPageSenior.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="App.Config" />
+    <EntityDeploy Include="Data\Models\CurrencyExchangeAccountingModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>CurrencyExchangeAccountingModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Data\Models\CurrencyExchangeAccountingModel.edmx.diagram">
+      <DependentUpon>CurrencyExchangeAccountingModel.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\Models\CurrencyExchangeAccountingModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>CurrencyExchangeAccountingModel.edmx</DependentUpon>
+      <LastGenOutput>CurrencyExchangeAccountingModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Data\Models\CurrencyExchangeAccountingModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>CurrencyExchangeAccountingModel.edmx</DependentUpon>
+      <LastGenOutput>CurrencyExchangeAccountingModel.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

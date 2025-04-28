@@ -1,0 +1,248 @@
+﻿<Page x:Class="CurrencyExchangeAccountingApp.ExchangeRatesPageOperator"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d" 
+      Title="Курсы валют"
+      FontSize="16">
+    <!-- Основная страница для отображения курсов валют для оператора. -->
+
+    <Page.Resources>
+        <!-- Стиль для поля поиска -->
+        <Style x:Key="SearchTextBoxStyle" TargetType="TextBox">
+            <Setter Property="Height" Value="35"/>
+            <!-- Высота текстового поля -->
+            <Setter Property="Margin" Value="10,5"/>
+            <!-- Отступы вокруг текстового поля -->
+            <Setter Property="Padding" Value="8,0,8,0"/>
+            <!-- Поля внутри текстового поля -->
+            <Setter Property="FontSize" Value="16"/>
+            <!-- Размер шрифта -->
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <!-- Вертикальное выравнивание содержимого -->
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <!-- Горизонтальное выравнивание содержимого -->
+            <Setter Property="TextAlignment" Value="Left"/>
+            <!-- Выравнивание текста -->
+            <Setter Property="BorderBrush" Value="Gray"/>
+            <!-- Цвет границы -->
+            <Setter Property="BorderThickness" Value="1"/>
+            <!-- Толщина границы -->
+        </Style>
+
+        <!-- Стиль для кнопки -->
+        <Style x:Key="CustomButtonStyle" TargetType="Button">
+            <Setter Property="Template">
+                <!-- Определяет пользовательский шаблон кнопки -->
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" 
+                                BorderBrush="{TemplateBinding BorderBrush}" 
+                                BorderThickness="{TemplateBinding BorderThickness}">
+                            <ContentPresenter Content="{TemplateBinding Content}" 
+                                              HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"
+                                              Margin="{TemplateBinding Padding}"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Margin" Value="20,0,10,0"/>
+            <!-- Отступы вокруг кнопки -->
+            <Setter Property="Padding" Value="10,5"/>
+            <!-- Поля внутри кнопки -->
+            <Setter Property="FontSize" Value="16"/>
+            <!-- Размер шрифта -->
+            <Setter Property="Background" Value="#f9e57c"/>
+            <!-- Цвет фона -->
+            <Setter Property="BorderBrush" Value="Gray"/>
+            <!-- Цвет границы -->
+            <Setter Property="BorderThickness" Value="1"/>
+            <!-- Толщина границы -->
+            <Style.Triggers>
+                <Trigger Property="IsEnabled" Value="False">
+                    <Setter Property="Opacity" Value="0.5"/>
+                    <!-- Полупрозрачность при отключенном состоянии -->
+                </Trigger>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#f7d933"/>
+                    <!-- Изменение цвета при наведении мыши -->
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- Стиль для DataGrid -->
+        <Style x:Key="CustomDataGridStyle" TargetType="DataGrid">
+            <Setter Property="Background" Value="White"/>
+            <!-- Цвет фона таблицы -->
+            <Setter Property="BorderBrush" Value="LightGray"/>
+            <!-- Цвет границы таблицы -->
+            <Setter Property="BorderThickness" Value="1"/>
+            <!-- Толщина границы таблицы -->
+            <Setter Property="RowBackground" Value="Transparent"/>
+            <!-- Цвет фона строк -->
+            <Setter Property="AlternatingRowBackground" Value="Transparent"/>
+            <!-- Цвет альтернативных строк -->
+            <Setter Property="HeadersVisibility" Value="Column"/>
+            <!-- Показать только заголовки столбцов -->
+            <Setter Property="AutoGenerateColumns" Value="False"/>
+            <!-- Запрещено автоматическое создание колонок -->
+            <Setter Property="CanUserAddRows" Value="False"/>
+            <!-- Запрещено добавление новых строк -->
+            <Setter Property="CanUserDeleteRows" Value="False"/>
+            <!-- Запрещено удаление строк -->
+            <Setter Property="CanUserReorderColumns" Value="False"/>
+            <!-- Запрещено перестановка столбцов -->
+            <Setter Property="CanUserResizeColumns" Value="True"/>
+            <!-- Разрешено изменение размера столбцов -->
+            <Setter Property="CanUserResizeRows" Value="False"/>
+            <!-- Запрещено изменение размера строк -->
+            <Setter Property="CanUserSortColumns" Value="True"/>
+            <!-- Разрешена сортировка столбцов -->
+            <Setter Property="SelectionMode" Value="Single"/>
+            <!-- Режим выбора одной строки -->
+            <Setter Property="SelectionUnit" Value="FullRow"/>
+            <!-- Выбор всей строки -->
+            <Setter Property="GridLinesVisibility" Value="All"/>
+            <!-- Показывать все линии сетки -->
+            <Setter Property="ScrollViewer.CanContentScroll" Value="True"/>
+            <!-- Разрешить прокрутку -->
+            <Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Auto"/>
+            <!-- Автоматическая прокрутка по вертикали -->
+            <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Auto"/>
+            <!-- Автоматическая прокрутка по горизонтали -->
+        </Style>
+
+        <!-- Стиль для заголовков столбцов DataGrid -->
+        <Style x:Key="CustomDataGridColumnHeaderStyle" TargetType="DataGridColumnHeader">
+            <Setter Property="Background" Value="#f0f0f0"/>
+            <!-- Цвет фона заголовка -->
+            <Setter Property="BorderBrush" Value="LightGray"/>
+            <!-- Цвет границы заголовка -->
+            <Setter Property="BorderThickness" Value="1,1,1,1"/>
+            <!-- Толщина границы заголовка -->
+            <Setter Property="Padding" Value="10,5"/>
+            <!-- Поля внутри заголовка -->
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <!-- Центрирование текста по горизонтали -->
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <!-- Центрирование текста по вертикали -->
+            <Setter Property="FontWeight" Value="Bold"/>
+            <!-- Жирный шрифт -->
+            <Setter Property="FontSize" Value="16"/>
+            <!-- Размер шрифта -->
+            <Setter Property="Cursor" Value="Hand"/>
+            <!-- Курсор становится рукой при наведении -->
+        </Style>
+
+        <!-- Стиль для строк DataGrid -->
+        <Style x:Key="CustomDataGridRowStyle" TargetType="DataGridRow">
+            <Setter Property="BorderBrush" Value="LightGray"/>
+            <!-- Цвет границы строки -->
+            <Setter Property="BorderThickness" Value="0,0,0,1"/>
+            <!-- Толщина границы строки -->
+            <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+            <!-- Расширение содержимого по горизонтали -->
+            <Setter Property="VerticalContentAlignment" Value="Stretch"/>
+            <!-- Расширение содержимого по вертикали -->
+            <Setter Property="Padding" Value="0"/>
+            <!-- Поля вокруг содержимого строки -->
+            <Setter Property="Background" Value="Transparent"/>
+            <!-- Прозрачный фон строки -->
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#f9e57c"/>
+                    <!-- Изменение цвета при наведении мыши -->
+                </Trigger>
+                <Trigger Property="IsSelected" Value="True">
+                    <Setter Property="Background" Value="#f7d933"/>
+                    <!-- Цвет выбранной строки -->
+                    <Setter Property="BorderBrush" Value="DarkGray"/>
+                    <!-- Цвет границы выбранной строки -->
+                    <Setter Property="BorderThickness" Value="1"/>
+                    <!-- Толщина границы выбранной строки -->
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- Стиль для ячеек DataGrid -->
+        <Style x:Key="CustomDataGridCellStyle" TargetType="DataGridCell">
+            <Setter Property="Padding" Value="10,5"/>
+            <!-- Поля внутри ячейки -->
+            <Setter Property="BorderBrush" Value="LightGray"/>
+            <!-- Цвет границы ячейки -->
+            <Setter Property="BorderThickness" Value="0,0,1,0"/>
+            <!-- Толщина границы ячейки -->
+            <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+            <!-- Удаление визуального эффекта фокуса -->
+            <Setter Property="Background" Value="Transparent"/>
+            <!-- Прозрачный фон ячейки -->
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="DataGridCell">
+                        <Border Padding="{TemplateBinding Padding}" 
+                                Background="{TemplateBinding Background}" 
+                                BorderBrush="{TemplateBinding BorderBrush}" 
+                                BorderThickness="{TemplateBinding BorderThickness}">
+                            <ContentPresenter VerticalAlignment="Center"/>
+                            <!-- Вертикальное центрирование содержимого -->
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
+
+    <Grid>
+        <Border Grid.Column="1" Width="1" Background="Black"/>
+        <!-- Вертикальная черная полоса -->
+
+        <Grid Grid.Column="2" Background="White">
+            <!-- Основной контейнер для элементов -->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <!-- Высота строки автоматически подстраивается -->
+                <RowDefinition Height="*"/>
+                <!-- Оставшаяся высота занимается остальной частью -->
+            </Grid.RowDefinitions>
+
+            <Border Grid.Row="0" Background="#f0f0f0" Padding="10">
+                <!-- Белый фон с отступом -->
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                    <TextBlock Text="Поиск:" VerticalAlignment="Center" Margin="10,0" FontSize="16"/>
+                    <!-- Текст "Поиск:" -->
+                    <TextBox x:Name="SearchTextBox" Width="300" Style="{StaticResource SearchTextBoxStyle}"
+                             TextChanged="SearchTextBox_TextChanged"/>
+                </StackPanel>
+            </Border>
+
+            <DataGrid x:Name="CurrenciesDataGrid" 
+                      Grid.Row="1" 
+                      Style="{StaticResource CustomDataGridStyle}"
+                      ColumnHeaderStyle="{StaticResource CustomDataGridColumnHeaderStyle}"
+                      RowStyle="{StaticResource CustomDataGridRowStyle}"
+                      CellStyle="{StaticResource CustomDataGridCellStyle}"
+                      Sorting="CurrenciesDataGrid_Sorting"
+                      IsReadOnly="True">
+                <!-- Таблица только для чтения -->
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Название валюты" 
+                                        Width="300" 
+                                        Binding="{Binding Currency_Name}"/>
+                    <!-- Колонка для названия валюты -->
+
+                    <DataGridTextColumn Header="Цена покупки" 
+                                        Width="250" 
+                                        Binding="{Binding Buy_Rate, StringFormat={}{0:N4}}"/>
+                    <!-- Колонка для цены покупки -->
+
+                    <DataGridTextColumn Header="Цена продажи" 
+                                        Width="250" 
+                                        Binding="{Binding Sell_Rate, StringFormat={}{0:N4}}"/>
+                    <!-- Колонка для цены продажи -->
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+    </Grid>
+</Page>
